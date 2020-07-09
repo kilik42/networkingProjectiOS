@@ -1,0 +1,23 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "58BB47EE543ECC9826C0842CC18EB58CDD0F3878",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "58BB47EE543ECC9826C0842CC18EB58CDD0F3878" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "393D3E90-4106-4BCD-9154-9C89FE392169",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "58BB47EE543ECC9826C0842CC18EB58CDD0F3878" : "todoProjectNetworking\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "todoProjectNetworking",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "todoProjectNetworking.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kilik42\/networkingProjectiOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "58BB47EE543ECC9826C0842CC18EB58CDD0F3878"
+    }
+  ]
+}

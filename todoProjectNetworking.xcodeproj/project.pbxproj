@@ -10,6 +10,7 @@
 		1099759424B4A1D2009965E4 /* ToDoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1099759324B4A1D2009965E4 /* ToDoCell.swift */; };
 		10DF95BB24B7450B0001CF11 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DF95BA24B7450B0001CF11 /* Todo.swift */; };
 		10DF95BD24B7457F0001CF11 /* apiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DF95BC24B7457F0001CF11 /* apiError.swift */; };
+		10DF95C024B747FD0001CF11 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DF95BF24B747FD0001CF11 /* NetworkService.swift */; };
 		10E94B9024B4998C00CCC220 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E94B8F24B4998C00CCC220 /* AppDelegate.swift */; };
 		10E94B9224B4998C00CCC220 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E94B9124B4998C00CCC220 /* SceneDelegate.swift */; };
 		10E94B9424B4998C00CCC220 /* TodoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E94B9324B4998C00CCC220 /* TodoVC.swift */; };
@@ -23,6 +24,7 @@
 		1099759324B4A1D2009965E4 /* ToDoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoCell.swift; sourceTree = "<group>"; };
 		10DF95BA24B7450B0001CF11 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 		10DF95BC24B7457F0001CF11 /* apiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apiError.swift; sourceTree = "<group>"; };
+		10DF95BF24B747FD0001CF11 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		10E94B8C24B4998C00CCC220 /* todoProjectNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todoProjectNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10E94B8F24B4998C00CCC220 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10E94B9124B4998C00CCC220 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +72,14 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		10DF95BE24B747E10001CF11 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				10DF95BF24B747FD0001CF11 /* NetworkService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		10E94B8324B4998C00CCC220 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +99,7 @@
 		10E94B8E24B4998C00CCC220 /* todoProjectNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				10DF95BE24B747E10001CF11 /* Services */,
 				1099759224B4A133009965E4 /* Controller */,
 				1099759124B4A12D009965E4 /* View */,
 				1099759024B4A120009965E4 /* Model */,
@@ -176,6 +187,7 @@
 			files = (
 				10E94B9424B4998C00CCC220 /* TodoVC.swift in Sources */,
 				10DF95BD24B7457F0001CF11 /* apiError.swift in Sources */,
+				10DF95C024B747FD0001CF11 /* NetworkService.swift in Sources */,
 				10DF95BB24B7450B0001CF11 /* Todo.swift in Sources */,
 				10E94B9024B4998C00CCC220 /* AppDelegate.swift in Sources */,
 				10E94B9224B4998C00CCC220 /* SceneDelegate.swift in Sources */,
