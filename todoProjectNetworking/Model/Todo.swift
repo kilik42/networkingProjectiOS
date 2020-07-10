@@ -8,6 +8,12 @@
 
 import Foundation
 
+struct Todos: Codable{
+    let itmes: Array<Todo>
+}
+
+
+
 struct Todo: Codable{
     let item: String
     let priority: Int
