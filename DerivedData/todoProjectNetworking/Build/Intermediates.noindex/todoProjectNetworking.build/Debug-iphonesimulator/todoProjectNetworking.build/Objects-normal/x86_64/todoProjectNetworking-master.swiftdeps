@@ -1,10 +1,10 @@
 version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
 options: "50450360f36976b0cbbbe30d7f9da2dc"
-build_time: [1594377417, 44575000]
+build_time: [1594379735, 563246000]
 inputs:
-  "/Users/marvinevins/Library/Autosave Information/todoProjectNetworking/todoProjectNetworking/Controller/TodoVC.swift": !private [1594333107, 155467154]
+  "/Users/marvinevins/Library/Autosave Information/todoProjectNetworking/todoProjectNetworking/Controller/TodoVC.swift": [1594379291, 555295737]
   "/Users/marvinevins/Library/Autosave Information/todoProjectNetworking/todoProjectNetworking/Model/apiError.swift": [1594297904, 75000162]
-  "/Users/marvinevins/Library/Autosave Information/todoProjectNetworking/todoProjectNetworking/Services/NetworkService.swift": !dirty [1594377416, 520536659]
+  "/Users/marvinevins/Library/Autosave Information/todoProjectNetworking/todoProjectNetworking/Services/NetworkService.swift": [1594379734, 76965171]
   "/Users/marvinevins/Library/Autosave Information/todoProjectNetworking/todoProjectNetworking/Model/Todo.swift": [1594377377, 113513923]
   "/Users/marvinevins/Library/Autosave Information/todoProjectNetworking/todoProjectNetworking/AppDelegate.swift": [1594122764, 488568389]
   "/Users/marvinevins/Library/Autosave Information/todoProjectNetworking/todoProjectNetworking/SceneDelegate.swift": [1594122764, 493447314]

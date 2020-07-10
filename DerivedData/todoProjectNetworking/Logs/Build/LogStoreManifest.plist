@@ -6,6 +6,40 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
+		<key>5228E841-DA3C-4B39-96E5-1172B13BD3AC</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>5228E841-DA3C-4B39-96E5-1172B13BD3AC.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>todoProjectNetworking project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>todoProjectNetworking</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build todoProjectNetworking</string>
+			<key>timeStartedRecording</key>
+			<real>616072535.52283895</real>
+			<key>timeStoppedRecording</key>
+			<real>616072536.34384501</real>
+			<key>title</key>
+			<string>Build todoProjectNetworking</string>
+			<key>uniqueIdentifier</key>
+			<string>5228E841-DA3C-4B39-96E5-1172B13BD3AC</string>
+		</dict>
 		<key>74380493-32E1-47F3-A9E7-9A673CB7E39A</key>
 		<dict>
 			<key>className</key>
@@ -40,7 +74,7 @@
 			<key>uniqueIdentifier</key>
 			<string>74380493-32E1-47F3-A9E7-9A673CB7E39A</string>
 		</dict>
-		<key>CF717D64-956B-4AE0-808C-0B7971BBADC6</key>
+		<key>DD6DD567-7696-4E75-B002-AF1B2F5B7A3C</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -49,13 +83,13 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>CF717D64-956B-4AE0-808C-0B7971BBADC6.xcactivitylog</string>
+			<string>DD6DD567-7696-4E75-B002-AF1B2F5B7A3C.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>S</string>
+				<string>W</string>
 			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>todoProjectNetworking project</string>
@@ -66,13 +100,13 @@
 			<key>signature</key>
 			<string>Build todoProjectNetworking</string>
 			<key>timeStartedRecording</key>
-			<real>615818235.77650404</real>
+			<real>616072466.99637902</real>
 			<key>timeStoppedRecording</key>
-			<real>615818237.46167696</real>
+			<real>616072467.49458599</real>
 			<key>title</key>
 			<string>Build todoProjectNetworking</string>
 			<key>uniqueIdentifier</key>
-			<string>CF717D64-956B-4AE0-808C-0B7971BBADC6</string>
+			<string>DD6DD567-7696-4E75-B002-AF1B2F5B7A3C</string>
 		</dict>
 	</dict>
 </dict>

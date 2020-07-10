@@ -13,28 +13,41 @@ provides-dynamic-lookup:
 - "session"
 - "shared"
 depends-top-level:
+- !private "=="
+- !private "APIError"
+- !private "CastingPrecedence"
 - !private "FloatLiteralType"
+- !private "HTTPURLResponse"
 - !private "IntegerLiteralType"
+- !private "JSONDecoder"
 - "NetworkService"
 - "StringLiteralType"
 - "Todo"
+- "Todos"
 - !private "URL"
 - "URLSession"
+- "Void"
+- !private "debugPrint"
+- !private "print"
 depends-member:
+- !private ["21todoProjectNetworking8APIErrorV", "deinit"]
 - !private ["s7CVarArgP", "dataTask"]
 - ["s7CVarArgP", "default"]
 - ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "resume"]
+- !private ["s7CVarArgP", "statusCode"]
 - !private ["s28CustomDebugStringConvertibleP", "dataTask"]
 - ["s28CustomDebugStringConvertibleP", "default"]
 - ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "resume"]
+- !private ["s28CustomDebugStringConvertibleP", "statusCode"]
 - !private ["s23CustomStringConvertibleP", "appendInterpolation"]
 - !private ["s23CustomStringConvertibleP", "appendLiteral"]
 - !private ["s23CustomStringConvertibleP", "dataTask"]
 - ["s23CustomStringConvertibleP", "default"]
 - ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "resume"]
+- !private ["s23CustomStringConvertibleP", "statusCode"]
 - !private ["Se", "init"]
 - !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
 - !private ["s26DefaultStringInterpolationV", "appendLiteral"]
@@ -43,30 +56,48 @@ depends-member:
 - ["SQ", "default"]
 - ["SQ", "init"]
 - !private ["SQ", "resume"]
+- !private ["SQ", "statusCode"]
+- !private ["s5ErrorP", "localizedDescription"]
+- !private ["So17NSHTTPURLResponseC", "statusCode"]
 - !private ["SH", "dataTask"]
 - ["SH", "default"]
 - ["SH", "init"]
 - !private ["SH", "resume"]
+- !private ["SH", "statusCode"]
+- !private ["10Foundation11JSONDecoderC", "decode"]
+- !private ["10Foundation11JSONDecoderC", "init"]
+- !private ["So8NSCodingP", "statusCode"]
 - ["So9NSCopyingP", "default"]
 - !private ["So9NSCopyingP", "resume"]
+- !private ["So9NSCopyingP", "statusCode"]
 - !private ["So8NSObjectC", "dataTask"]
 - ["So8NSObjectC", "default"]
 - ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "resume"]
+- !private ["So8NSObjectC", "statusCode"]
 - !private ["So8NSObjectP", "dataTask"]
 - ["So8NSObjectP", "default"]
 - ["So8NSObjectP", "init"]
 - !private ["So8NSObjectP", "resume"]
+- !private ["So8NSObjectP", "statusCode"]
+- !private ["So14NSSecureCodingP", "statusCode"]
+- !private ["21todoProjectNetworking14NetworkServiceC", "APIError"]
+- !private ["21todoProjectNetworking14NetworkServiceC", "HTTPURLResponse"]
+- !private ["21todoProjectNetworking14NetworkServiceC", "JSONDecoder"]
 - ["21todoProjectNetworking14NetworkServiceC", "NetworkService"]
 - ["21todoProjectNetworking14NetworkServiceC", "Todo"]
+- ["21todoProjectNetworking14NetworkServiceC", "Todos"]
 - !private ["21todoProjectNetworking14NetworkServiceC", "URL"]
 - ["21todoProjectNetworking14NetworkServiceC", "URLSession"]
 - ["21todoProjectNetworking14NetworkServiceC", "URL_ADD_TODO"]
 - ["21todoProjectNetworking14NetworkServiceC", "URL_BASE"]
+- ["21todoProjectNetworking14NetworkServiceC", "Void"]
 - ["21todoProjectNetworking14NetworkServiceC", "addToDo"]
+- !private ["21todoProjectNetworking14NetworkServiceC", "debugPrint"]
 - ["21todoProjectNetworking14NetworkServiceC", "deinit"]
 - ["21todoProjectNetworking14NetworkServiceC", "getTodos"]
 - ["21todoProjectNetworking14NetworkServiceC", "init"]
+- !private ["21todoProjectNetworking14NetworkServiceC", "print"]
 - ["21todoProjectNetworking14NetworkServiceC", "session"]
 - ["21todoProjectNetworking14NetworkServiceC", "shared"]
 - !private ["So19NSProgressReportingP", "resume"]
@@ -75,7 +106,11 @@ depends-member:
 - !private ["s27StringInterpolationProtocolP", "appendLiteral"]
 - !private ["s16TextOutputStreamP", "appendInterpolation"]
 - !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["21todoProjectNetworking5TodosV", "deinit"]
+- !private ["7Combine15TopLevelDecoderP", "decode"]
+- !private ["7Combine15TopLevelDecoderP", "init"]
 - !private ["10Foundation3URLV", "init"]
+- !private ["So13NSURLResponseC", "statusCode"]
 - !private ["So12NSURLSessionC", "dataTask"]
 - ["So12NSURLSessionC", "init"]
 - ["So25NSURLSessionConfigurationC", "default"]
@@ -87,12 +122,15 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "default"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "resume"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "statusCode"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dataTask"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "default"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "resume"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "statusCode"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
 depends-nominal:
+- !private "21todoProjectNetworking8APIErrorV"
 - "s7CVarArgP"
 - "s28CustomDebugStringConvertibleP"
 - "s23CustomStringConvertibleP"
@@ -100,16 +138,24 @@ depends-nominal:
 - !private "s26DefaultStringInterpolationV"
 - !private "SE"
 - "SQ"
+- !private "s5ErrorP"
+- !private "So17NSHTTPURLResponseC"
 - "SH"
+- !private "10Foundation11JSONDecoderC"
+- !private "So8NSCodingP"
 - "So9NSCopyingP"
 - "So8NSObjectC"
 - "So8NSObjectP"
+- !private "So14NSSecureCodingP"
 - "21todoProjectNetworking14NetworkServiceC"
 - !private "So19NSProgressReportingP"
 - !private "10Foundation20ReferenceConvertibleP"
 - !private "s27StringInterpolationProtocolP"
 - !private "s16TextOutputStreamP"
+- !private "21todoProjectNetworking5TodosV"
+- !private "7Combine15TopLevelDecoderP"
 - !private "10Foundation3URLV"
+- !private "So13NSURLResponseC"
 - "So12NSURLSessionC"
 - "So25NSURLSessionConfigurationC"
 - !private "So20NSURLSessionDataTaskC"
@@ -149,4 +195,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "7407e3d7c6ae60284e09b752deedb368"
+interface-hash: "6c054a42005fd86460dcd82b78993ea8"
