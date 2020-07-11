@@ -56,14 +56,14 @@ depends-member:
 - ["Se", "encode"]
 - ["Se", "init"]
 - !private ["Se", "item"]
-- !private ["Se", "itmes"]
+- !private ["Se", "items"]
 - !private ["Se", "priority"]
 - !private ["s7DecoderP", "container"]
 - ["SE", ""]
 - ["SE", "encode"]
 - ["SE", "init"]
 - !private ["SE", "item"]
-- !private ["SE", "itmes"]
+- !private ["SE", "items"]
 - !private ["SE", "priority"]
 - !private ["s7EncoderP", "container"]
 - ["SQ", "=="]
@@ -103,7 +103,7 @@ depends-member:
 - ["21todoProjectNetworking5TodosV", "deinit"]
 - ["21todoProjectNetworking5TodosV", "encode"]
 - ["21todoProjectNetworking5TodosV", "init"]
-- ["21todoProjectNetworking5TodosV", "itmes"]
+- ["21todoProjectNetworking5TodosV", "items"]
 depends-nominal:
 - "s9CodingKeyP"
 - "s28CustomDebugStringConvertibleP"
@@ -151,4 +151,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "c7df09aa1c886105e0e21bd514a15679"
+interface-hash: "ffaae903582e4282f3dfbd738ace5e90"

@@ -104,6 +104,7 @@
                     <connections>
                         <outlet property="prioritySegment" destination="HFu-XW-gbg" id="UJu-AW-Xxa"/>
                         <outlet property="toDoItemTxt" destination="BtL-Ge-uoI" id="IoD-LN-TMb"/>
+                        <outlet property="todoTable" destination="CoL-6c-xGM" id="dAJ-x2-gqr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

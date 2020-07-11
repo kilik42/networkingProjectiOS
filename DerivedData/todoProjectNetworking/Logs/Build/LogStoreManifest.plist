@@ -6,6 +6,40 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
+		<key>1BA75038-7DD0-4CB3-B92D-38D1CB41EFA0</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>1BA75038-7DD0-4CB3-B92D-38D1CB41EFA0.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>todoProjectNetworking project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>todoProjectNetworking</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build todoProjectNetworking</string>
+			<key>timeStartedRecording</key>
+			<real>616165133.17469096</real>
+			<key>timeStoppedRecording</key>
+			<real>616165133.47532499</real>
+			<key>title</key>
+			<string>Build todoProjectNetworking</string>
+			<key>uniqueIdentifier</key>
+			<string>1BA75038-7DD0-4CB3-B92D-38D1CB41EFA0</string>
+		</dict>
 		<key>5228E841-DA3C-4B39-96E5-1172B13BD3AC</key>
 		<dict>
 			<key>className</key>
@@ -40,7 +74,7 @@
 			<key>uniqueIdentifier</key>
 			<string>5228E841-DA3C-4B39-96E5-1172B13BD3AC</string>
 		</dict>
-		<key>74380493-32E1-47F3-A9E7-9A673CB7E39A</key>
+		<key>B0ACC3C0-7DB2-4B9A-ABCC-8AA83F39E20D</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -49,7 +83,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>74380493-32E1-47F3-A9E7-9A673CB7E39A.xcactivitylog</string>
+			<string>B0ACC3C0-7DB2-4B9A-ABCC-8AA83F39E20D.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -66,15 +100,15 @@
 			<key>signature</key>
 			<string>Build todoProjectNetworking</string>
 			<key>timeStartedRecording</key>
-			<real>616070216.99225497</real>
+			<real>616164924.44526196</real>
 			<key>timeStoppedRecording</key>
-			<real>616070217.359025</real>
+			<real>616164924.73711002</real>
 			<key>title</key>
 			<string>Build todoProjectNetworking</string>
 			<key>uniqueIdentifier</key>
-			<string>74380493-32E1-47F3-A9E7-9A673CB7E39A</string>
+			<string>B0ACC3C0-7DB2-4B9A-ABCC-8AA83F39E20D</string>
 		</dict>
-		<key>DD6DD567-7696-4E75-B002-AF1B2F5B7A3C</key>
+		<key>EBEC6C65-E0E1-4FAB-8FFD-3EDE89E805D5</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -83,13 +117,13 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>DD6DD567-7696-4E75-B002-AF1B2F5B7A3C.xcactivitylog</string>
+			<string>EBEC6C65-E0E1-4FAB-8FFD-3EDE89E805D5.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>W</string>
+				<string>E</string>
 			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>todoProjectNetworking project</string>
@@ -100,13 +134,13 @@
 			<key>signature</key>
 			<string>Build todoProjectNetworking</string>
 			<key>timeStartedRecording</key>
-			<real>616072466.99637902</real>
+			<real>616165281.68248498</real>
 			<key>timeStoppedRecording</key>
-			<real>616072467.49458599</real>
+			<real>616165282.23411596</real>
 			<key>title</key>
 			<string>Build todoProjectNetworking</string>
 			<key>uniqueIdentifier</key>
-			<string>DD6DD567-7696-4E75-B002-AF1B2F5B7A3C</string>
+			<string>EBEC6C65-E0E1-4FAB-8FFD-3EDE89E805D5</string>
 		</dict>
 	</dict>
 </dict>

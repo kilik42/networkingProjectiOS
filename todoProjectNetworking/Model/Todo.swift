@@ -9,7 +9,7 @@
 import Foundation
 
 struct Todos: Codable{
-    let itmes: Array<Todo>
+    let items: Array<Todo>
 }
 
 

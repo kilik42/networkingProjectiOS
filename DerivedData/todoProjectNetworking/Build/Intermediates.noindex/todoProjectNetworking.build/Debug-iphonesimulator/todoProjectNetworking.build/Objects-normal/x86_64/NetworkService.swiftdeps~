@@ -16,6 +16,7 @@ depends-top-level:
 - !private "=="
 - !private "APIError"
 - !private "CastingPrecedence"
+- !private "DispatchQueue"
 - !private "FloatLiteralType"
 - !private "HTTPURLResponse"
 - !private "IntegerLiteralType"
@@ -31,37 +32,51 @@ depends-top-level:
 - !private "print"
 depends-member:
 - !private ["21todoProjectNetworking8APIErrorV", "deinit"]
+- !private ["s7CVarArgP", "async"]
 - !private ["s7CVarArgP", "dataTask"]
 - ["s7CVarArgP", "default"]
 - ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "main"]
 - !private ["s7CVarArgP", "resume"]
 - !private ["s7CVarArgP", "statusCode"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
 - !private ["s28CustomDebugStringConvertibleP", "dataTask"]
 - ["s28CustomDebugStringConvertibleP", "default"]
 - ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
 - !private ["s28CustomDebugStringConvertibleP", "resume"]
 - !private ["s28CustomDebugStringConvertibleP", "statusCode"]
 - !private ["s23CustomStringConvertibleP", "appendInterpolation"]
 - !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "async"]
 - !private ["s23CustomStringConvertibleP", "dataTask"]
 - ["s23CustomStringConvertibleP", "default"]
 - ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "main"]
 - !private ["s23CustomStringConvertibleP", "resume"]
 - !private ["s23CustomStringConvertibleP", "statusCode"]
 - !private ["Se", "init"]
 - !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
 - !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "main"]
 - !private ["SE", "init"]
+- !private ["SQ", "async"]
 - !private ["SQ", "dataTask"]
 - ["SQ", "default"]
 - ["SQ", "init"]
+- !private ["SQ", "main"]
 - !private ["SQ", "resume"]
 - !private ["SQ", "statusCode"]
 - !private ["s5ErrorP", "localizedDescription"]
 - !private ["So17NSHTTPURLResponseC", "statusCode"]
+- !private ["SH", "async"]
 - !private ["SH", "dataTask"]
 - ["SH", "default"]
 - ["SH", "init"]
+- !private ["SH", "main"]
 - !private ["SH", "resume"]
 - !private ["SH", "statusCode"]
 - !private ["10Foundation11JSONDecoderC", "decode"]
@@ -70,18 +85,23 @@ depends-member:
 - ["So9NSCopyingP", "default"]
 - !private ["So9NSCopyingP", "resume"]
 - !private ["So9NSCopyingP", "statusCode"]
+- !private ["So8NSObjectC", "async"]
 - !private ["So8NSObjectC", "dataTask"]
 - ["So8NSObjectC", "default"]
 - ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "main"]
 - !private ["So8NSObjectC", "resume"]
 - !private ["So8NSObjectC", "statusCode"]
+- !private ["So8NSObjectP", "async"]
 - !private ["So8NSObjectP", "dataTask"]
 - ["So8NSObjectP", "default"]
 - ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "main"]
 - !private ["So8NSObjectP", "resume"]
 - !private ["So8NSObjectP", "statusCode"]
 - !private ["So14NSSecureCodingP", "statusCode"]
 - !private ["21todoProjectNetworking14NetworkServiceC", "APIError"]
+- !private ["21todoProjectNetworking14NetworkServiceC", "DispatchQueue"]
 - !private ["21todoProjectNetworking14NetworkServiceC", "HTTPURLResponse"]
 - !private ["21todoProjectNetworking14NetworkServiceC", "JSONDecoder"]
 - ["21todoProjectNetworking14NetworkServiceC", "NetworkService"]
@@ -100,8 +120,12 @@ depends-member:
 - !private ["21todoProjectNetworking14NetworkServiceC", "print"]
 - ["21todoProjectNetworking14NetworkServiceC", "session"]
 - ["21todoProjectNetworking14NetworkServiceC", "shared"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "main"]
 - !private ["So19NSProgressReportingP", "resume"]
 - !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["7Combine9SchedulerP", "async"]
+- !private ["7Combine9SchedulerP", "main"]
 - !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
 - !private ["s27StringInterpolationProtocolP", "appendLiteral"]
 - !private ["s16TextOutputStreamP", "appendInterpolation"]
@@ -118,14 +142,18 @@ depends-member:
 - !private ["So16NSURLSessionTaskC", "resume"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "init"]
 - !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "dataTask"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "default"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "resume"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "statusCode"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "async"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dataTask"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "default"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "resume"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "statusCode"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
@@ -136,6 +164,8 @@ depends-nominal:
 - "s23CustomStringConvertibleP"
 - !private "Se"
 - !private "s26DefaultStringInterpolationV"
+- !private "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
 - !private "SE"
 - "SQ"
 - !private "s5ErrorP"
@@ -148,8 +178,10 @@ depends-nominal:
 - "So8NSObjectP"
 - !private "So14NSSecureCodingP"
 - "21todoProjectNetworking14NetworkServiceC"
+- !private "So9OS_objectC"
 - !private "So19NSProgressReportingP"
 - !private "10Foundation20ReferenceConvertibleP"
+- !private "7Combine9SchedulerP"
 - !private "s27StringInterpolationProtocolP"
 - !private "s16TextOutputStreamP"
 - !private "21todoProjectNetworking5TodosV"

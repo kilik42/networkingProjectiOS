@@ -1,13 +1,17 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
+- "Todos"
 - "Todo"
 provides-nominal:
+- "21todoProjectNetworking5TodosV"
 - "21todoProjectNetworking4TodoV"
 provides-member:
+- ["21todoProjectNetworking5TodosV", ""]
 - ["21todoProjectNetworking4TodoV", ""]
 provides-dynamic-lookup:
 depends-top-level:
 - "=="
+- "Array"
 - "Codable"
 - !private "FloatLiteralType"
 - "Int"
@@ -15,6 +19,7 @@ depends-top-level:
 - "String"
 - !private "StringLiteralType"
 - "Todo"
+- "Todos"
 - !private "~="
 depends-member:
 - ["s9CodingKeyP", "=="]
@@ -51,12 +56,14 @@ depends-member:
 - ["Se", "encode"]
 - ["Se", "init"]
 - !private ["Se", "item"]
+- !private ["Se", "items"]
 - !private ["Se", "priority"]
 - !private ["s7DecoderP", "container"]
 - ["SE", ""]
 - ["SE", "encode"]
 - ["SE", "init"]
 - !private ["SE", "item"]
+- !private ["SE", "items"]
 - !private ["SE", "priority"]
 - !private ["s7EncoderP", "container"]
 - ["SQ", "=="]
@@ -91,6 +98,12 @@ depends-member:
 - ["21todoProjectNetworking4TodoV", "init"]
 - ["21todoProjectNetworking4TodoV", "item"]
 - ["21todoProjectNetworking4TodoV", "priority"]
+- ["21todoProjectNetworking5TodosV", "Array"]
+- ["21todoProjectNetworking5TodosV", "Todo"]
+- ["21todoProjectNetworking5TodosV", "deinit"]
+- ["21todoProjectNetworking5TodosV", "encode"]
+- ["21todoProjectNetworking5TodosV", "init"]
+- ["21todoProjectNetworking5TodosV", "items"]
 depends-nominal:
 - "s9CodingKeyP"
 - "s28CustomDebugStringConvertibleP"
@@ -107,6 +120,7 @@ depends-nominal:
 - !private "s22KeyedEncodingContainerV"
 - !private "s30KeyedEncodingContainerProtocolP"
 - "21todoProjectNetworking4TodoV"
+- "21todoProjectNetworking5TodosV"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
@@ -137,4 +151,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "050977df1d7d531f7440bc1bb05c0271"
+interface-hash: "ffaae903582e4282f3dfbd738ace5e90"
